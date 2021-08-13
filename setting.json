@@ -140,6 +140,12 @@
                 "workbench.action.showAllSymbols"
             ]
         },
+        {
+            "before": ["<leader>", "g", "a"],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
     ],
     "vim.visualModeKeyBindings": [
         {
