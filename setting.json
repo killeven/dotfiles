@@ -1,0 +1,154 @@
+{
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Darcula",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.smartcase": true,
+    "vim.surround": true,
+    "vim.insertModeKeyBindings": [
+        //  映射esc
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        //  清除搜索结果
+        {
+            "before": ["<leader>", "s", "c"],
+            "after": [":", "n", "o", "h", "l", "s", "e", "a", "r", "c", "h", "<cr>"]
+        },
+        //  便捷移动
+        {
+            "before": ["<leader>", "d"],
+            "after": ["<c-d>"]
+        },
+        {
+            "before": ["<leader>", "u"],
+            "after": ["<c-u>"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        //  tab操作
+        {
+            "before": ["<leader>", "t", "n"],
+            "after": ["g", "t"]
+        },
+        {
+            "before": ["<leader>", "t", "p"],
+            "after": ["g", "T"]
+        },
+        //  剪切板
+        {
+            "before": ["<leader>", "y"],
+            "after": ["\"", "*", "y"]
+        },
+        {
+            "before": ["<leader>", "p"],
+            "after": ["\"", "*", "p"]
+        },
+        //  quit
+        {
+            "before": ["<leader>", "q"],
+            "after": [":", "q", "<cr>"]
+        },
+        {
+            "before": ["<leader>", "Q"],
+            "after": [":", "q", "a", "!","<cr>"]
+        },
+        //  窗口操作
+        {
+            "before": ["<leader>", "w", "w"],
+            "after": ["<c-w>", "w"]
+        },
+        {
+            "before": ["<leader>", "w", "c"],
+            "after": ["<c-w>", "c"]
+        },
+        {
+            "before": ["<leader>", "w", "j"],
+            "after": ["<c-w>", "j"]
+        },
+        {
+            "before": ["<leader>", "w", "k"],
+            "after": ["<c-w>", "k"]
+        },
+        {
+            "before": ["<leader>", "w", "l"],
+            "after": ["<c-w>", "l"]
+        },
+        {
+            "before": ["<leader>", "w", "h"],
+            "after": ["<c-w>", "h"]
+        },
+        {
+            "before": ["<leader>", "w", "s"],
+            "after": ["<c-w>", "s"]
+        },
+        {
+            "before": ["<leader>", "w", "v"],
+            "after": ["<c-w>", "v"]
+        },
+        //  文件操作
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": ["<leader>", "f", "u"],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": ["<leader>", "r", "e"],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": ["<leader>", "g", "f"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": ["<leader>", "g", "i"],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": ["<leader>", "g", "d"],
+            "commands": [
+                "editor.action.revealDeclaration"
+            ]
+        },
+        {
+            "before": ["<leader>", "g", "s"],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+    ],
+}
