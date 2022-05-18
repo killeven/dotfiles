@@ -146,6 +146,12 @@
                 "workbench.action.showCommands"
             ]
         },
+        {
+            "before": ["<leader>", "<enter>"],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
     ],
     "vim.visualModeKeyBindings": [
         {
