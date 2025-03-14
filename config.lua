@@ -30,16 +30,16 @@ lvim.plugins = {
       end, { remap = true })
       lvim.builtin.which_key.mappings["j"] = {
         name = "Hop Motion",
-        c = {
+        j = {
           "<cmd>:HopChar1<cr>", "Go to Char"
         },
-        C = {
+        J = {
           "<cmd>:HopChar2<cr>", "Go to Char2"
         },
         l = {
           "<cmd>:HopLine<cr>", "Go to Line"
         },
-        j = {
+        a = {
           "<cmd>:HopAnywhere<cr>", "Go to Anywhere"
         },
         w = {
