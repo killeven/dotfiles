@@ -10,6 +10,7 @@ set smartcase
 " plugins
 set easymotion
 set surround
+set multicursor
 
 " 方便移动
 nnoremap L $
