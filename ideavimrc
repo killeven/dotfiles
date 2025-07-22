@@ -56,6 +56,7 @@ nnoremap <leader>gi :action GotoImplementation<cr>
 
 nnoremap <leader>ff :action FindInPath<cr>
 nnoremap <leader>fu :action FindUsages<cr>
+nnoremap <leader>fc :action ReformatCode<cr>
 nnoremap <leader>re :action RenameElement<cr>
 
 " esc映射
