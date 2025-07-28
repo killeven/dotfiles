@@ -11,6 +11,7 @@ set smartcase
 set easymotion
 set surround
 set multicursor
+set NERDTree
 
 " 方便移动
 nnoremap L $
@@ -33,6 +34,7 @@ nnoremap <leader>wl <c-w>l
 nnoremap <leader>wh <c-w>h
 nnoremap <leader>ws <c-w>s
 nnoremap <leader>wv <c-w>v
+nnoremap <leader>e :NERDTree<cr>
 
 " 便捷拷贝
 nnoremap <leader>y "*y
